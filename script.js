@@ -1,7 +1,4 @@
 
-
-
-
 // circle skill
 
 const circles = document.querySelectorAll('.circle');
@@ -22,20 +19,7 @@ circles.forEach(elem=>{
     }
 })
 
-// //Active menu
 
-// let menuli=document .querySelectorAll('header ul li a');
-// let section=document .querySelectorAll('section');
-
-// function activeMenu(){
-//     let len = section.length;
-//     while(--len && windowscrollY + 97 < section[len].offsetTop){}
-//     menuli.forEach(sec=>sec.classList.remove(active));
-//         menuli[len].classList.add("active");
-// }
-
-// activeMenu();
-// window.addEventListener("scroll",activeMenu);
 
 const header=document.querySelectorAll("header");
 window.addEventListener("scroll",function(){
