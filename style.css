@@ -6,6 +6,7 @@
     list-style: none;
     scroll-behavior: smooth;
     text-decoration: none;
+    
 
 }
 
@@ -44,7 +45,7 @@
 }
 
 body{
-    font-family:"Poppins",sans-serif;
+    font-family:"Poppins",sans-serif !important ;
     background-color: var(--bg-color);
     color: var(--text-color);
 }
@@ -188,17 +189,21 @@ transition: 0.38s ease;
     font-size: .9rem;
     color: #bdbdbd;
 }
+
+.email-info{
+    padding-right: 20px;
+}
 .btn-box{
     display: flex;
     justify-content: space-between;
-    width: 320px;
+    width: 333px;
     height: 45px;
 }
 .btn-box .btn{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
+    width: 145px;
     height: 100%;
     background: var(--hover-color);
     color: var(--bg-color);
@@ -231,10 +236,10 @@ transition: 0.38s ease;
 }
 
 .social-icons{
-    margin-top: 8rem;
+    margin-top: 5rem;
     display: flex;
     justify-content: space-between;
-    width: 220px;
+    width: 240px;
     height: 40px;
 }
 .social-icons a{
@@ -325,6 +330,19 @@ transition: 0.38s ease;
     font-weight: 300;
     margin-bottom:1.5rem;
     
+}
+#more {display: none;}
+
+.read-more{
+    color: #fdfdfd; 
+    font-weight: 300 !important;
+    font-size: 0.8rem !important;
+   
+    /* font-weight: 500;  */
+    font-family:"Poppins",sans-serif !important ;
+    text-transform: none !important ;
+    
+
 }
 
 /* service section css */
